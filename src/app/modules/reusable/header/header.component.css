@@ -1,0 +1,26 @@
+.header-component {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px 165px;
+}
+.logo img {
+  max-width: 206px;
+}
+.menu {
+  display: flex;
+  flex-direction: row;
+}
+.menu-item {
+  padding-right: 48px;
+}
+li {
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+}
+.menu a.active {
+  background-color: var(--pink);
+  padding: 2px 6px;
+  border-radius: 10px;
+}

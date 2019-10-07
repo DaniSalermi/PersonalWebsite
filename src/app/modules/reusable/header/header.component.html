@@ -1,1 +1,22 @@
-<p>header works!</p>
+<div class="header-component">
+  <div class="logo">
+    <img src="/assets/dani.svg" alt="Logo Daniela Salermi" />
+  </div>
+  <div>
+    <ul class="menu">
+      <li class="menu-item">
+        <a [routerLink]="'/home'" routerLinkActive="active">Inicio</a>
+      </li>
+      <li class="menu-item">
+        <a [routerLink]="'/projects'" routerLinkActive="active">Proyectos</a>
+      </li>
+      <li class="menu-item">
+        <a [routerLink]="'/about-me'" routerLinkActive="active">Sobre mi</a>
+      </li>
+      <li class="menu-item">
+        <a [routerLink]="'contact'" routerLinkActive="active">Contacto</a>
+      </li>
+      <li>Mi CV</li>
+    </ul>
+  </div>
+</div>
