@@ -1,0 +1,19 @@
+.footer {
+  height: 105px;
+  width: 100%;
+  background-image: linear-gradient(
+    98deg,
+    #2e6ea7,
+    #7abbf5 32%,
+    #7abbf5 64%,
+    #3474ae
+  );
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer-item {
+  padding-right: 92px;
+}

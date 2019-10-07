@@ -1,1 +1,42 @@
 /* You can add global styles to this file, and also import other style files */
+:root {
+  --pink: #fa605e;
+}
+@font-face {
+  font-family: 'Avenir';
+  src: url('/assets/font/Avenir-Medium.woff2') format('woff2'),
+    url('/assets/font/Avenir-Medium.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Avenir';
+  src: url('/assets/font/Avenir-Black.woff2') format('woff2'),
+    url('/assets/font/Avenir-Black.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('/assets/foto_dani@2x.png');
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: 800px;
+  font-family: 'Avenir';
+}
+
+ul {
+  list-style: none;
+  list-style-type: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+button {
+  border: 0px;
+}
