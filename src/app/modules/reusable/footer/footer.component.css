@@ -1,19 +1,26 @@
 .footer {
-  height: 105px;
+  height: 236px;
   width: 100%;
-  background-image: linear-gradient(
-    98deg,
-    #2e6ea7,
-    #7abbf5 32%,
-    #7abbf5 64%,
-    #3474ae
-  );
-  position: fixed;
-  bottom: 0;
+  background-color: #7abbf5;
+}
+.icons {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 .footer-item {
-  padding-right: 92px;
+  padding-right: 42px;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 35px;
+}
+.line-footer hr {
+  width: 10%;
+  border: 0;
+  border-top: 1.5px solid white;
 }

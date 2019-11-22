@@ -28,7 +28,7 @@
   right: -120vw;
   top: 0;
 
-  transition: transform 0.8s cubic-bezier(0.94, 0.44, 0, 0.99);
+  transition: transform 1s cubic-bezier(0.94, 0.44, 0, 0.99);
 }
 
 .menu-container.open {
